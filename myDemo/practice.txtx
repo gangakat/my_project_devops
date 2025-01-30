@@ -1,0 +1,15 @@
+cd myDemo
+   29  git add test_gmail_compose.py
+   30  git status
+   31  git commit -m "added test file"
+   32  git restore test_gmail_compose.py\n
+   33  git restore test_gmail_compose.py\n
+   34  git restor test_gmail_compose.py\n
+   35  git restore test_gmail_compose.py\n
+   36  git stsus
+   37  git ststus
+   38  git status
+   39  git restore --staged test_gmail_compose.py
+   40  ls
+   41  git restore test_gmail_compose.py
+   42  histoey
