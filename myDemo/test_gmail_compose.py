@@ -16,7 +16,7 @@ RECIPIENT = "recipient@example.com"
 SUBJECT = "Test Email with Attachment"
 BODY = "This is an automated test email with an attachment."
 
-# File to Attach (MacOS Example)
+# File to Attach (macOS Example)
 FOLDER_PATH = os.path.expanduser("~/Documents/TestFolder")
 ATTACHMENT = "testfile.txt"
 FILE_PATH = os.path.join(FOLDER_PATH, ATTACHMENT)
@@ -64,7 +64,7 @@ def test_gmail_compose(setup_teardown):
     attach_button.click()
     time.sleep(3)  # Wait for the Mac file picker to open
 
-    # Use PyAutoGUI to enter file path in MacOS file dialog
+    # Use PyAutoGUI to enter file path in macOS file dialog
     time.sleep(2)
     pyautogui.write(FILE_PATH)
     time.sleep(1)
@@ -83,3 +83,4 @@ def test_gmail_compose(setup_teardown):
     assert SUBJECT in driver.page_source, "Email not found in Sent folder!"
 
     print("✅ Test Passed: Email sent successfully with attachment.")
+    print("hi, this is my first project")
